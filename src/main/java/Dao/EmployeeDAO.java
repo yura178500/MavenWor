@@ -2,6 +2,8 @@ package Dao;
 
 import Model.Employee;
 
+import java.util.List;
+
 public interface EmployeeDAO {
 
     // Добавление объекта
@@ -11,11 +13,11 @@ public interface EmployeeDAO {
     Employee readById(int id);
 
     // Получение всех объектов
-    java.awt.List readAll();
+    List<Employee> readAll();
 
 
     // Изменение объекта по id
-    void updateAgeById(int id, int amount);
+    void updateAgeById(int id, int age);
 
     // Удаление объекта по id
     void deleteById(int id);
