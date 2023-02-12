@@ -15,11 +15,11 @@ public class City {
         this.city = city;
     }
 
-    public int getCity_id() {
+    public int getId() {
         return id;
     }
 
-    public void setCity_id(int city_id) {
+    public void setId(int id) {
         this.id = id;
     }
 

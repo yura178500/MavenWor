@@ -66,7 +66,6 @@ public class EmployeeDAOImpl implements EmployeeDAO {
                 employee.setLastName(resultSet.getString("last_name"));
                 employee.setGender(resultSet.getString("gender"));
                 employee.setAge(resultSet.getInt("age"));
-
             }
         } catch (SQLException e) {
             e.printStackTrace();
