@@ -9,7 +9,6 @@ public class City {
     public City() {
     }
 
-
     public City(int id, String city) {
         this.id = id;
         this.city = city;

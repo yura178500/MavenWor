@@ -18,7 +18,6 @@ public interface EmployeeDAO {
     // Изменение объекта по id
     void updateAgeById(int id, int age);
 
-
     // Удаление объекта по id
     void deleteById(int id);
 }

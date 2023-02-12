@@ -58,7 +58,6 @@ public class EmployeeDAOImpl implements EmployeeDAO {
             // и одновременно переходим к нему, если таковой есть
             while (resultSet.next()) {
 
-
                 // С помощью методов getInt и getString получаем данные из resultSet
                 // и присваиваем их полим объекта
                 employee.setId(resultSet.getInt("id"));
