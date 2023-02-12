@@ -15,7 +15,6 @@ public interface EmployeeDAO {
     // Получение всех объектов
     List<Employee> readAll();
 
-
     // Изменение объекта по id
     void updateAgeById(int id, int age);
 
